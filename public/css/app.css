@@ -1,3 +1,130 @@
+.bord_blue {
+  height: 50px;
+  background-color: #0282f9;
+}
+
+#card_dettaglio {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  padding: 50px 0 20px;
+  background-color: #ffffff;
+  position: relative;
+  color: black;
+}
+
+#card_dettaglio p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#card_dettaglio .text {
+  width: 65%;
+}
+
+#card_dettaglio .text span {
+  font-size: 20px;
+}
+
+#card_dettaglio .container_bord {
+  display: flex;
+}
+
+#card_dettaglio .bord_green {
+  width: 50%;
+  height: 50px;
+  background-color: #55ba59;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#card_dettaglio .bord_green span {
+  color: #a5e65e;
+}
+
+#card_dettaglio .bord_green span .color {
+  color: white;
+}
+
+#card_dettaglio .bord_ {
+  width: 15%;
+  height: 50px;
+  background-color: #55ba59;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#card_dettaglio a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 10px 0 20px;
+}
+
+#card_dettaglio .container .card {
+  width: 200px;
+  height: 300px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#card_dettaglio .container .card .img-container {
+  padding-top: 100%;
+  position: relative;
+}
+
+#card_dettaglio .container .card .img-container img {
+  position: absolute;
+  top: -530px;
+  left: -100px;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  border: 1px solid white;
+}
+
+#banner_dettaglio {
+  background-color: #0282f9;
+}
+
+#banner_dettaglio .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+#banner_dettaglio .container div {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner_dettaglio .container div img {
+  width: 100px;
+  height: 70px;
+}
+
+#banner_dettaglio .container div img.smaller {
+  height: 50px;
+}
+
+#banner_dettaglio .container div span {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;

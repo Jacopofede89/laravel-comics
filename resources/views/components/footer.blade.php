@@ -64,7 +64,7 @@
                     </li>
                 </ul>
             </nav>
-            <img src="../assets/img/dc-logo-bg.png" alt="">
+            <img src="/storage/assets/img/dc-logo-bg.png" alt="">
         </div>
         
     </div>
@@ -74,11 +74,11 @@
             <div id="social">
                 <div class="text">follow us</div>
                 <div class="icons">
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-periscope.png" alt="">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
-                    <img src="../assets/img/footer-twitter.png" alt="">
-                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="/storage/assets/img/footer-facebook.png" alt="">
+                    <img src="/storage/assets/img/footer-periscope.png" alt="">
+                    <img src="/storage/assets/img/footer-pinterest.png" alt="">
+                    <img src="/storage/assets/img/footer-twitter.png" alt="">
+                    <img src="/storage/assets/img/footer-youtube.png" alt="">
                 </div>
             </div>
         </div>

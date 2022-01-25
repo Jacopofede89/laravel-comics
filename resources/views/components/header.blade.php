@@ -7,10 +7,15 @@
         </div>
         <nav>
             <ul>
+                
+                @foreach ($menu as $item)
                 <li>
-                    <a href="#">Characters</a>
+                    <a href="#">{{$item}}</a> 
                 </li>
-                <li>
+                @endforeach
+                {{-- <a href="#">Characters</a> --}}
+                
+                {{-- <li>
                     <a href="#">Comics</a>
                 </li>
                 <li>
@@ -36,7 +41,7 @@
                 </li>
                 <li>
                     <a href="#">shop</a>
-                </li>
+                </li> --}}
             </ul>
         </nav>
     </div>
